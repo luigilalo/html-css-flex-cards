@@ -5,31 +5,47 @@
     font-family: 'Fredoka', sans-serif;
 }
 
-h1 {color:blueviolet;
+body {margin: 5%}
+
+h1 {color:rgb(209, 0, 112);
 text-align: center;
 margin: 40px}
 
 h4 {text-align: center;
-margin: 45px;
+margin: 50px;
 }
 
 
 #flex-container {display: flex;
 gap: 40px;
 flex-wrap: wrap;
-justify-content: center;
-}
+justify-content: center;}
 
 .flex-item {
+    display: flex;
     width: 400px;
     height: 100px;
-    background-color: blue;
+    background-color: rgb(4, 4, 44);
     color: white;
-    align-items: center;
     box-shadow: 5px 5px 3px 1px rgb(187, 195, 195);
-    text-align: left;
 }
 
-.photos {width: 25%;
-float: left;
-margin-right: 20px;}
+.photos {width: 25%;}
+
+.names {margin-top:  10px;
+margin-left: 20px;}
+    
+.jobs {margin-top:5px;
+margin-left: 20px;}
+
+.email {margin-top: 10px;
+margin-left:20px;}
+
+.ending {background-color: rgb(4, 4, 44);
+    position: fixed;
+        left: 0;
+        bottom: 0;
+        padding: 30px;
+        width: 100%;
+        color: white;
+        text-align: center;}
