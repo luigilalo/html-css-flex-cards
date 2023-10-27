@@ -26,7 +26,10 @@ justify-content: center;
     background-color: blue;
     color: white;
     align-items: center;
-    box-shadow: 5px 5px 3px 1px rgb(187, 195, 195)
+    box-shadow: 5px 5px 3px 1px rgb(187, 195, 195);
+    text-align: left;
 }
 
-.photos {width: 25% }
+.photos {width: 25%;
+float: left;
+margin-right: 20px;}
