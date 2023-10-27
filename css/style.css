@@ -4,3 +4,21 @@
     box-sizing: border-box;
     font-family: 'Fredoka', sans-serif;
 }
+
+h1 {color:blueviolet;
+text-align: center;
+margin: 40px}
+
+#flex-container {display: flex;
+gap:10px;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.flex-item {
+    width: 400px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    align-items: center;
+}
